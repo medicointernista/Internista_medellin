@@ -106,7 +106,7 @@ const ContactPage = () => {
                   Ubicación del consultorio en Medellín
                 </h3>
                 <a
-                  href="https://maps.app.goo.gl/vPPJWHtXDQ42kEBk7"
+                  href="https://maps.app.goo.gl/cVXHnxUmBhiUBR3P7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-semibold text-[#1080A0] hover:text-[#0D6E8A] transition-colors underline"
@@ -115,7 +115,7 @@ const ContactPage = () => {
                 </a>
               </div>
               <a
-                href="https://maps.app.goo.gl/vPPJWHtXDQ42kEBk7"
+                href="https://maps.app.goo.gl/cVXHnxUmBhiUBR3P7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block overflow-hidden rounded-2xl border-2 border-[#E2E8F0] bg-gradient-to-br from-[#F1F5F9] to-[#E2E8F0] hover:border-[#CBD5E1] transition-colors aspect-video"
@@ -124,7 +124,7 @@ const ContactPage = () => {
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-[#1080A0] mx-auto mb-3" />
                     <p className="text-sm font-semibold text-[#0F172A] mb-2">Ver en Google Maps</p>
-                    <p className="text-xs text-[#475569]">Cra 50A #64-45, Medellín</p>
+                    <p className="text-xs text-[#475569]">Biencrecer Cra 81 #27-17, Medellín</p>
                   </div>
                 </div>
               </a>

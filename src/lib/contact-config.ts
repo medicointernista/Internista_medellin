@@ -45,6 +45,6 @@ export const getPhoneLink = (index?: number) => {
 };
 
 export const LOCATION = {
-  mapsLink: "https://maps.app.goo.gl/GJFsDZyaeVA79HVCA",
+  mapsLink: "https://maps.app.goo.gl/cVXHnxUmBhiUBR3P7",
   address: "Biencrecer Cra 81 #27-17 Consultorio 1, Belén La Palma, Medellín, Antioquia"
 };
