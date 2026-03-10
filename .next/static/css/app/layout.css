@@ -754,6 +754,9 @@
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
@@ -5166,6 +5169,11 @@
   .md\:inline-flex {
     @media (width >= 48rem) {
       display: inline-flex;
+    }
+  }
+  .md\:h-14 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 14);
     }
   }
   .md\:h-48 {

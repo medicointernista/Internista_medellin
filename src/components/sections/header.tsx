@@ -160,15 +160,19 @@ const Header = () => {
                 <div className="container mx-auto px-6 py-4 max-w-[1400px]">
                     <div className="flex items-center justify-between gap-4">
                         {/* Logo */}
-                        <Link 
-                            className="inline-flex items-center gap-2 rounded-lg py-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1080A0]" 
-                            aria-label="Ir al inicio" 
+                        <Link
+                            className="inline-flex items-center gap-2 rounded-lg py-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1080A0]"
+                            aria-label="Ir al inicio"
                             href="/"
                         >
-                            <span className="flex flex-col leading-tight">
-                                <span className="text-base md:text-lg font-bold text-[#0F172A] tracking-tight">Dr. Willmer Obregón</span>
-                                <span className="text-xs font-medium text-[#1080A0] uppercase tracking-widest">Medicina Interna</span>
-                            </span>
+                            <Image
+                                src="/Wilmer_Obregon_Logo.png"
+                                alt="Dr. Willmer Obregón Logo"
+                                width={200}
+                                height={60}
+                                className="h-12 w-auto md:h-14"
+                                priority
+                            />
                         </Link>
 
                         {/* Desktop Navigation Menu */}

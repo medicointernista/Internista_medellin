@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+import Link from 'next/link';
 import { Facebook, Instagram, Youtube, MapPin, Phone, Mail, Clock, ChevronUp } from 'lucide-react';
 import { FaTiktok } from 'react-icons/fa';
 import { PHONE_NUMBERS } from '@/lib/contact-config';
@@ -14,7 +16,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-16">
           {/* Doctor Info Column */}
             <div className="bg-white/80 backdrop-blur-md rounded-[2rem] p-8 shadow-sm border border-white/40">
-              <h3 className="text-lg font-bold text-[#1E293B] mb-4">Dr. Willmer Obregón</h3>
+              <Link href="/" className="inline-block mb-4">
+                <Image
+                  src="/Wilmer_Obregon_Logo.png"
+                  alt="Dr. Willmer Obregón Logo"
+                  width={200}
+                  height={60}
+                  className="h-16 w-auto"
+                />
+              </Link>
             <p className="text-sm text-[#64748B] leading-relaxed mb-6">
               Especialista en Medicina Interna en Medellín, con enfoque personalizado y comprensivo hacia el cuidado de la salud. Acompañamiento en condiciones cardiovasculares y metabólicas con tratamiento basado en evidencia.
             </p>
