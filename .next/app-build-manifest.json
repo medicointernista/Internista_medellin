@@ -65,6 +65,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/cardiologia/holter-24-horas/page.js"
+    ],
+    "/cardiologia/mapa-24-horas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cardiologia/mapa-24-horas/page.js"
     ]
   }
 }
