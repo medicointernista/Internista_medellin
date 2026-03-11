@@ -4,5 +4,6 @@
   "/contacto/page": "app/contacto/page.js",
   "/sobre-mi/page": "app/sobre-mi/page.js",
   "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/page": "app/servicios/viscosuplementacion-para-rodilla/page.js"
+  "/servicios/consulta-medicina-interna/page": "app/servicios/consulta-medicina-interna/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
