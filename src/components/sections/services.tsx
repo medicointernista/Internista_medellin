@@ -4,7 +4,7 @@ const services = [
     {
       title: "Consulta de Medicina Interna",
       description: "Enfoque integral y personalizado, con evaluación completa, diagnóstico y plan de seguimiento.",
-      image: "consulta-de-medicina-interna.jpg",
+      image: "https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "/servicios/consulta-medicina-interna",
       alt: "Consulta de medicina interna en Medellín con evaluación integral del paciente"
     },
@@ -18,21 +18,21 @@ const services = [
   {
     title: "Electrocardiograma",
     description: "Registro rápido de la actividad eléctrica del corazón para apoyo diagnóstico y control.",
-    image: "Electrocardiograma.jpg",
+    image: "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=800",
     link: "/cardiologia/electrocardiograma",
     alt: "Electrocardiograma en Medellín para evaluar ritmo cardíaco"
   },
   {
     title: "Ecocardiograma transtorácico",
     description: "Ultrasonido del corazón para evaluar estructura, función y válvulas (según indicación clínica).",
-    image: "ecocardiograma1.jpg",
+    image: "https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=800",
     link: "/cardiologia/ecocardiograma-transtoracico",
     alt: "Estudio de ecocardiograma con transductor y pantalla de ultrasonido"
   },
   {
     title: "Holter 24 horas",
     description: "Monitoreo continuo del ritmo cardíaco durante 24 horas para detectar arritmias y correlacionar síntomas.",
-    image: "Holter-24-horas.jpg",
+    image: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=800",
     link: "/cardiologia/holter-24-horas",
     alt: "Paciente con dispositivo Holter en entorno clínico"
   },
@@ -67,7 +67,7 @@ const ServicesSection = () => {
               >
                 <figure className="relative h-44 w-full md:h-48">
                   <Image
-                    src={`/${service.image}`}
+                    src={service.image}
                     alt={service.alt}
                     fill
                     className="object-cover"
