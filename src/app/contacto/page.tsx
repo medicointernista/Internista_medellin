@@ -185,6 +185,15 @@ const ContactPage = () => {
                     <p>Lunes a viernes: 8am a 5pm</p>
                   </div>
                 </div>
+
+                {/* Facilities Image */}
+                <div className="mt-6 pt-6 border-t border-[#E2E8F0]">
+                  <img
+                    src="/Instalaciones-Biencrecer copy.jpg"
+                    alt="Instalaciones Biencrecer en Medellín"
+                    className="w-full h-auto rounded-xl border border-[#E2E8F0] object-cover"
+                  />
+                </div>
               </div>
             </section>
           </aside>
