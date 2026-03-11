@@ -76,25 +76,25 @@ const HeroSection = () => {
               />
 
               <figure className="relative overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_20px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] transition-transform duration-500 hover:scale-[1.01]">
-                  <img
-                    src="/Consulta_medica_personalizada_con_el_Dr._Willmer_Obregon_especialista_en_medicina_interna_en_Medellin._(1) copy copy.jpg"
-                    alt="Dr. Willmer Obregón médico internista en consultorio de Medellín"
-                    className="h-[350px] w-full object-cover md:h-[500px]"
-                    loading="eager"
-                  />
+                <img
+                  src="/Consulta_medica_personalizada_con_el_Dr._Willmer_Obregon_especialista_en_medicina_interna_en_Medellin._(1) copy copy.jpg"
+                  alt="Dr. Willmer Obregón médico internista en consultorio de Medellín"
+                  className="h-[350px] w-full object-cover md:h-[500px]"
+                  loading="eager"
+                />
 
-              {/* Floating Name Card Over Image */}
-              <figcaption className="absolute bottom-6 left-6 right-6">
-                <div className="rounded-2xl bg-white/75 p-5 shadow-lg blur-none backdrop-blur-xl border border-white/20">
-                  <p className="text-base font-semibold text-[#1E293B]">Dr. Willmer Obregón</p>
-                  <p className="mt-0.5 text-xs font-medium text-[#1080A0] uppercase tracking-wide">Medicina Interna</p>
-                </div>
-              </figcaption>
-            </figure>
+                {/* Floating Name Card Over Image */}
+                <figcaption className="absolute bottom-6 left-6 right-6">
+                  <div className="rounded-2xl bg-white/75 p-5 shadow-lg blur-none backdrop-blur-xl border border-white/20">
+                    <p className="text-base font-semibold text-[#1E293B]">Dr. Willmer Obregón</p>
+                    <p className="mt-0.5 text-xs font-medium text-[#1080A0] uppercase tracking-wide">Medicina Interna</p>
+                  </div>
+                </figcaption>
+              </figure>
 
-            {/* Small decorative floaters */}
-            <div className="pointer-events-none absolute -bottom-6 -left-6 h-32 w-32 rounded-full bg-[#E1F1F6] opacity-60 blur-3xl" />
-          </div>
+              {/* Small decorative floaters */}
+              <div className="pointer-events-none absolute -bottom-6 -left-6 h-32 w-32 rounded-full bg-[#E1F1F6] opacity-60 blur-3xl" />
+            </div>
         </div>
       </div>
     </section>
