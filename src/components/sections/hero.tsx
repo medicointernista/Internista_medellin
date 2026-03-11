@@ -77,7 +77,7 @@ const HeroSection = () => {
 
               <figure className="relative overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_20px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] transition-transform duration-500 hover:scale-[1.01]">
                   <img
-                    src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    src="/Consulta_medica_personalizada_con_el_Dr._Willmer_Obregon_especialista_en_medicina_interna_en_Medellin._(1) copy copy.jpg"
                     alt="Dr. Willmer Obregón médico internista en consultorio de Medellín"
                     className="h-[350px] w-full object-cover md:h-[500px]"
                     loading="eager"
