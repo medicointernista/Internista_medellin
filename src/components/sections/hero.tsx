@@ -70,19 +70,19 @@ const HeroSection = () => {
             {/* Right Column: Imagery */}
             <div className="relative z-0 group animate-in fade-in zoom-in duration-1000 delay-200">
               {/* Pulsing blue glow background */}
-              <div 
-                className="absolute -inset-4 rounded-[2.5rem] bg-[#1080A0] opacity-10 blur-[50px] animate-pulse" 
+              <div
+                className="absolute -inset-4 rounded-[2.5rem] bg-[#1080A0] opacity-10 blur-[50px] animate-pulse"
                 style={{ animationDuration: '4s' }}
               />
-              
+
               <figure className="relative overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_20px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] transition-transform duration-500 hover:scale-[1.01]">
                   <img
-                    src="/Consulta_medica_personalizada_con_el_Dr._Willmer_Obregon_especialista_en_medicina_interna_en_Medellin._(1).jpg"
+                    src="https://images.pexels.com/photos/4173849/pexels-photo-4173849.jpeg?auto=compress&cs=tinysrgb&w=800"
                     alt="Dr. Willmer Obregón médico internista en consultorio de Medellín"
                     className="h-[350px] w-full object-cover md:h-[500px]"
                     loading="eager"
                   />
-              
+
               {/* Floating Name Card Over Image */}
               <figcaption className="absolute bottom-6 left-6 right-6">
                 <div className="rounded-2xl bg-white/75 p-5 shadow-lg blur-none backdrop-blur-xl border border-white/20">
