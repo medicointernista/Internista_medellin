@@ -1,3 +1,4 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/servicios/consulta-medicina-interna/page": "app/servicios/consulta-medicina-interna/page.js"
 }
