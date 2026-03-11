@@ -20,6 +20,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page.js"
+    ],
+    "/servicios/viscosuplementacion-para-rodilla/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/viscosuplementacion-para-rodilla/page.js"
     ]
   }
 }
