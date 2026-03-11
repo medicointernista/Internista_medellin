@@ -39,7 +39,7 @@ const services = [
   {
     title: "MAPA 24 horas",
     description: "Monitoreo ambulatorio de presión arterial (24h) para diagnóstico y ajuste de tratamiento.",
-    image: "/Holter-24-horas copy.jpg",
+    image: "/mapa24horas.jpg",
     link: "/cardiologia/mapa-24-horas",
     alt: "Paciente con brazalete y monitor portátil para MAPA 24 horas"
   }
