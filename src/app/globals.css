@@ -179,14 +179,8 @@
   .hero-glow {
     background: radial-gradient(circle at 30% 20%, rgba(16, 128, 160, 0.15), transparent 50%);
   }
-}
 
-@layer base {
   * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
+    border-color: theme(colors.border);
   }
 }
