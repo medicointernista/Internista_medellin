@@ -3,5 +3,6 @@
   "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
   "/cardiologia/mapa-24-horas/page": "app/cardiologia/mapa-24-horas/page.js",
   "/servicios/consulta-medicina-interna/page": "app/servicios/consulta-medicina-interna/page.js",
-  "/servicios/consulta-medicina-interna/enfermedades-endocrinas/page": "app/servicios/consulta-medicina-interna/enfermedades-endocrinas/page.js"
+  "/servicios/consulta-medicina-interna/enfermedades-endocrinas/page": "app/servicios/consulta-medicina-interna/enfermedades-endocrinas/page.js",
+  "/contacto/page": "app/contacto/page.js"
 }
