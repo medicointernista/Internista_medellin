@@ -1,8 +1,8 @@
 {
   "/page": "app/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/page": "app/servicios/viscosuplementacion-para-rodilla/page.js",
-  "/sobre-mi/page": "app/sobre-mi/page.js",
   "/servicios/consulta-medicina-interna/page": "app/servicios/consulta-medicina-interna/page.js",
   "/servicios/consulta-medicina-interna/enfermedades-endocrinas/page": "app/servicios/consulta-medicina-interna/enfermedades-endocrinas/page.js",
-  "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js"
+  "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
+  "/cardiologia/ecocardiograma-transtoracico/page": "app/cardiologia/ecocardiograma-transtoracico/page.js",
+  "/contacto/page": "app/contacto/page.js"
 }
