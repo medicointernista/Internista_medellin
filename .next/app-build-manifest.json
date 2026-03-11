@@ -30,6 +30,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/servicios/viscosuplementacion-para-rodilla/page.js"
+    ],
+    "/sobre-mi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/sobre-mi/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-endocrinas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-endocrinas/page.js"
+    ],
+    "/cardiologia/electrocardiograma/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cardiologia/electrocardiograma/page.js"
     ]
   }
 }
