@@ -2,89 +2,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@theme {
-  --color-background: #F8F9FA;
-  --color-foreground: #1E293B;
-
-  --color-card: rgba(255, 255, 255, 0.8);
-  --color-card-foreground: #1E293B;
-
-  --color-popover: #ffffff;
-  --color-popover-foreground: #1E293B;
-
-  --color-primary: #1080A0;
-  --color-primary-foreground: #FFFFFF;
-
-  --color-secondary: #E1F1F6;
-  --color-secondary-foreground: #1080A0;
-
-  --color-muted: #F1F5F9;
-  --color-muted-foreground: #64748B;
-
-  --color-accent: #E1F1F6;
-  --color-accent-foreground: #1080A0;
-
-  --color-destructive: #EF4444;
-  --color-destructive-foreground: #FFFFFF;
-
-  --color-border: #E2E8F0;
-  --color-input: #E2E8F0;
-  --color-ring: #1080A0;
-
-  --color-chart-1: #1080A0;
-  --color-chart-2: #0D6E8A;
-  --color-chart-3: #38BDF8;
-  --color-chart-4: #0EA5E9;
-  --color-chart-5: #0284C7;
-
-  --color-sidebar: #F8FAFC;
-  --color-sidebar-foreground: #475569;
-  --color-sidebar-primary: #1080A0;
-  --color-sidebar-primary-foreground: #FFFFFF;
-  --color-sidebar-accent: #E1F1F6;
-  --color-sidebar-accent-foreground: #1080A0;
-  --color-sidebar-border: #E2E8F0;
-  --color-sidebar-ring: #1080A0;
-
-  --radius-lg: 2rem;
-  --radius-md: 1.5rem;
-  --radius-sm: 0.75rem;
-
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
-
-  --animate-accordion-down: accordion-down 0.2s ease-out;
-  --animate-accordion-up: accordion-up 0.2s ease-out;
-
-  --color-medical-teal: #1080A0;
-  --color-medical-light: #E1F1F6;
-  --color-medical-dark: #0D6E8A;
-  --color-glass: rgba(255, 255, 255, 0.6);
-
-  @keyframes accordion-down {
-    from {
-      height: 0;
-    }
-    to {
-      height: var(--radix-accordion-content-height);
-    }
-  }
-  @keyframes accordion-up {
-    from {
-      height: var(--radix-accordion-content-height);
-    }
-    to {
-      height: 0;
-    }
-  }
-}
-
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
+  * {
     border-color: #E2E8F0;
   }
 
@@ -118,7 +37,7 @@
   body {
     background-color: #F8F9FA !important;
     color: #1E293B !important;
-    font-family: var(--font-sans);
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -127,7 +46,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-display);
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
     font-weight: 600;
     letter-spacing: -0.025em;
     color: #0F172A;
@@ -163,7 +82,7 @@
   }
 
   .glass-card {
-    background: var(--color-glass);
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -176,9 +95,5 @@
 
   .hero-glow {
     background: radial-gradient(circle at 30% 20%, rgba(16, 128, 160, 0.15), transparent 50%);
-  }
-
-  * {
-    border-color: theme(colors.border);
   }
 }
