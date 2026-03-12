@@ -3,6 +3,5 @@
   "/contacto/page": "app/contacto/page.js",
   "/servicios/consulta-medicina-interna/enfermedades-endocrinas/page": "app/servicios/consulta-medicina-interna/enfermedades-endocrinas/page.js",
   "/servicios/consulta-medicina-interna/page": "app/servicios/consulta-medicina-interna/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/page": "app/servicios/viscosuplementacion-para-rodilla/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/servicios/viscosuplementacion-para-rodilla/page": "app/servicios/viscosuplementacion-para-rodilla/page.js"
 }
