@@ -1,6 +1,6 @@
 {
   "/page": "app/page.js",
   "/sobre-mi/page": "app/sobre-mi/page.js",
-  "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
-  "/cardiologia/ecocardiograma-transtoracico/page": "app/cardiologia/ecocardiograma-transtoracico/page.js"
+  "/cardiologia/ecocardiograma-transtoracico/page": "app/cardiologia/ecocardiograma-transtoracico/page.js",
+  "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js"
 }
