@@ -70,7 +70,7 @@ const EcocardiogramaTranstoracicoPage = () => {
         {/* Hero Image */}
         <figure className="mb-12 overflow-hidden rounded-[2rem] border-2 border-[#E2E8F0] bg-white/70 shadow-sm">
           <img
-            src="https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/ecocardiograma-2 copy copy.jpg"
             alt="Procedimiento de ecocardiograma transtorácico"
             className="w-full h-[300px] md:h-[450px] object-cover"
           />
