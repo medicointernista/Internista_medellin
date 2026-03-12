@@ -70,7 +70,7 @@ const ElectrocardiogramaPage = () => {
         {/* Hero Image */}
         <figure className="mb-12 overflow-hidden rounded-[2rem] border-2 border-[#E2E8F0] bg-white/70 shadow-sm">
           <img
-            src="/electrocardiograma2 copy copy copy copy.jpg"
+            src="/electrocardiograma2.jpg"
             alt="Electrocardiograma en Medellín para evaluar ritmo cardíaco"
             className="w-full h-[300px] md:h-[450px] object-cover"
           />
