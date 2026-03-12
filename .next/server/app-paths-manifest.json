@@ -2,6 +2,8 @@
   "/page": "app/page.js",
   "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
   "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
+  "/cardiologia/mapa-24-horas/page": "app/cardiologia/mapa-24-horas/page.js",
   "/contacto/page": "app/contacto/page.js",
-  "/cardiologia/mapa-24-horas/page": "app/cardiologia/mapa-24-horas/page.js"
+  "/servicios/consulta-medicina-interna/enfermedades-endocrinas/page": "app/servicios/consulta-medicina-interna/enfermedades-endocrinas/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
