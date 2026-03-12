@@ -40,6 +40,56 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-endocrinas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-endocrinas/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-psiquiatricas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-psiquiatricas/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-cardiovasculares/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-cardiovasculares/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-pulmonares/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-pulmonares/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/enfermedades-hematologicas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/enfermedades-hematologicas/page.js"
+    ],
+    "/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page.js"
+    ],
+    "/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page.js"
+    ],
+    "/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page.js"
+    ],
+    "/cardiologia/holter-24-horas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cardiologia/holter-24-horas/page.js"
     ]
   }
 }
