@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { MessageSquare, Phone, Mail, MapPin, Clock, CheckCircle2 } from 'lucide-react';
+import { MessageSquare, Phone, Mail, MapPin, Clock, CircleCheck as CheckCircle2 } from 'lucide-react';
 import CtaBanner from "@/components/sections/cta-banner";
 import ServiceBenefits from "@/components/sections/service-benefits";
 import { getWhatsAppLink } from '@/lib/contact-config';
@@ -77,7 +77,7 @@ const EnfermedadesPsiquiatricasPage = () => {
 
         <figure className="mb-12 overflow-hidden rounded-[2rem] border-2 border-[#E2E8F0] bg-white/70 shadow-sm">
           <img
-            src="https://images.pexels.com/photos/3807755/pexels-photo-3807755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="/Enfermedades-psiquiatricas.jpg"
             alt="Tratamiento de trastornos del sueño y salud mental"
             className="w-full h-[300px] md:h-[450px] object-cover"
           />
