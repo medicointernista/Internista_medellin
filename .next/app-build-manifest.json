@@ -30,6 +30,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/cardiologia/electrocardiograma/page.js"
+    ],
+    "/cardiologia/ecocardiograma-transtoracico/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cardiologia/ecocardiograma-transtoracico/page.js"
     ]
   }
 }
