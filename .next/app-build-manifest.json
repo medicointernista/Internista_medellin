@@ -110,6 +110,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/servicios/viscosuplementacion-para-rodilla/page.js"
+    ],
+    "/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page.js"
+    ],
+    "/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page.js"
     ]
   }
 }
