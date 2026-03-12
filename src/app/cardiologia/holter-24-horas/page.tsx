@@ -70,7 +70,7 @@ const Holter24HorasPage = () => {
         {/* Hero Image */}
         <figure className="mb-12 overflow-hidden rounded-[2rem] border-2 border-[#E2E8F0] bg-white/70 shadow-sm">
           <img
-            src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/holter24horas.jpg"
             alt="Paciente con dispositivo Holter de 24 horas"
             className="w-full h-[300px] md:h-[450px] object-cover"
           />
