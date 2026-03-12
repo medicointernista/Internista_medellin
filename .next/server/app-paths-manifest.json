@@ -1,8 +1,8 @@
 {
   "/page": "app/page.js",
-  "/servicios/consulta-medicina-interna/page": "app/servicios/consulta-medicina-interna/page.js",
   "/servicios/viscosuplementacion-para-rodilla/page": "app/servicios/viscosuplementacion-para-rodilla/page.js",
   "/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page": "app/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page.js",
   "/servicios/consulta-medicina-interna/enfermedades-psiquiatricas/page": "app/servicios/consulta-medicina-interna/enfermedades-psiquiatricas/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page": "app/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page.js"
+  "/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page": "app/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
