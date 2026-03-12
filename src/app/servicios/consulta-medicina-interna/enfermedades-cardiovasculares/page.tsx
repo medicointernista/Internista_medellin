@@ -77,7 +77,7 @@ const EnfermedadesCardiovascularesPage = () => {
 
         <figure className="mb-12 overflow-hidden rounded-[2rem] border-2 border-[#E2E8F0] bg-white/70 shadow-sm">
           <img
-            src="/enfermedades-cardiovasculares.jpg"
+            src="/enfermedades-cardiovasculares copy.jpg"
             alt="Evaluación cardiovascular y control de presión arterial"
             className="w-full h-[300px] md:h-[450px] object-cover"
           />
