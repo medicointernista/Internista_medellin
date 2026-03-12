@@ -1,8 +1,8 @@
 {
   "/page": "app/page.js",
-  "/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page": "app/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page.js",
   "/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page.js",
   "/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page.js",
   "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
-  "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js"
+  "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
+  "/cardiologia/ecocardiograma-transtoracico/page": "app/cardiologia/ecocardiograma-transtoracico/page.js"
 }
