@@ -4,5 +4,5 @@
   "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
   "/cardiologia/mapa-24-horas/page": "app/cardiologia/mapa-24-horas/page.js",
   "/sobre-mi/page": "app/sobre-mi/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/page": "app/servicios/viscosuplementacion-para-rodilla/page.js"
+  "/_not-found/page": "app/_not-found/page.js"
 }
