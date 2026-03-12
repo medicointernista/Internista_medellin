@@ -1,8 +1,7 @@
 {
   "/page": "app/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page.js",
   "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
   "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
-  "/cardiologia/mapa-24-horas/page": "app/cardiologia/mapa-24-horas/page.js",
-  "/contacto/page": "app/contacto/page.js"
+  "/contacto/page": "app/contacto/page.js",
+  "/cardiologia/mapa-24-horas/page": "app/cardiologia/mapa-24-horas/page.js"
 }
