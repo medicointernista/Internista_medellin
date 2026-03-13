@@ -1,9 +1,8 @@
 {
   "/page": "app/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page": "app/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page.js",
   "/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page.js",
   "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
-  "/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page": "app/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page.js",
   "/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page": "app/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page.js",
-  "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js"
+  "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
+  "/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page.js"
 }
