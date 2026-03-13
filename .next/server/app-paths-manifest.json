@@ -1,9 +1,9 @@
 {
   "/page": "app/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page.js",
   "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page": "app/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page.js",
   "/cardiologia/electrocardiograma/page": "app/cardiologia/electrocardiograma/page.js",
   "/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-corticoides/page.js",
+  "/sobre-mi/page": "app/sobre-mi/page.js",
+  "/servicios/consulta-medicina-interna/enfermedades-pulmonares/page": "app/servicios/consulta-medicina-interna/enfermedades-pulmonares/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }
