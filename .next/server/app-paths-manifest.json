@@ -1,10 +1,8 @@
 {
   "/page": "app/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page": "app/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page.js",
   "/servicios/consulta-medicina-interna/enfermedades-psiquiatricas/page": "app/servicios/consulta-medicina-interna/enfermedades-psiquiatricas/page.js",
   "/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page": "app/servicios/viscosuplementacion-para-rodilla/prp-lisado-plaquetas/page.js",
   "/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page": "app/servicios/viscosuplementacion-para-rodilla/infiltraciones-bioreguladores/page.js",
-  "/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page": "app/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page": "app/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page.js"
+  "/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page": "app/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page.js",
+  "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js"
 }
