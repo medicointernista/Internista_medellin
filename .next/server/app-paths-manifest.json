@@ -5,5 +5,6 @@
   "/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page": "app/servicios/consulta-medicina-interna/manejo-avanzado-dolor/page.js",
   "/cardiologia/holter-24-horas/page": "app/cardiologia/holter-24-horas/page.js",
   "/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page": "app/servicios/consulta-medicina-interna/enfermedades-gastrointestinales/page.js",
-  "/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page": "app/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page.js"
+  "/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page": "app/servicios/viscosuplementacion-para-rodilla/acido-hialuronico/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
