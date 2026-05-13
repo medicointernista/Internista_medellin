@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://internistamedellin.lovable.app';
+  const baseUrl = 'https://drwillmerobregon.com';
 
   return [
     // Main pages

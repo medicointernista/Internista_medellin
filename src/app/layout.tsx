@@ -36,6 +36,39 @@ export default function RootLayout({
   return (
       <html lang="es-CO" suppressHydrationWarning>
         <head>
+          <Script
+            id="person-schema"
+            type="application/ld+json"
+            strategy="afterInteractive"
+          >
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Dr. Willmer Obregón",
+              "givenName": "Willmer",
+              "familyName": "Obregón",
+              "image": "https://drwillmerobregon.com/Wilmer_Obregon_Logo.png",
+              "description": "Médico Internista especializado en Medicina Interna con experiencia en enfermedades crónicas, diabetes, hipertensión y patologías cardiovasculares",
+              "url": "https://drwillmerobregon.com",
+              "email": "contacto@drwillmerobregon.com",
+              "telephone": "+573005555555",
+              "worksFor": {
+                "@type": "MedicalBusiness",
+                "name": "Consultorio Dr. Willmer Obregón"
+              },
+              "jobTitle": "Médico Internista",
+              "knowsAbout": [
+                "Medicina Interna",
+                "Hipertensión",
+                "Diabetes",
+                "Enfermedades Cardiovasculares",
+                "Enfermedades Gastrointestinales"
+              ],
+              "sameAs": [
+                "https://drwillmerobregon.com"
+              ]
+            })}
+          </Script>
           <Script id="google-tag-manager" strategy="afterInteractive">
             {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -50,37 +83,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             {JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LocalBusiness",
+              "@type": "MedicalBusiness",
               "name": "Dr. Willmer Obregón - Medicina Interna",
-              "image": "https://drwillmerobregon.com/logo.png",
-              "description": "Consulta de medicina interna integral en Medellín. Especialista en tratamiento de enfermedades crónicas, diabetes, presión alta y problemas cardiovasculares.",
+              "image": "https://drwillmerobregon.com/Wilmer_Obregon_Logo.png",
+              "description": "Consulta de medicina interna integral en Medellín. Especialista en hipertensión, diabetes, enfermedades cardiovasculares, gastrointestinales y crónicas con atención personalizada.",
               "url": "https://drwillmerobregon.com",
               "telephone": "+573005555555",
               "email": "contacto@drwillmerobregon.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Medellín",
+                "streetAddress": "Carrera 43, Medellín",
                 "addressLocality": "Medellín",
                 "addressRegion": "Antioquia",
                 "postalCode": "050021",
                 "addressCountry": "CO"
               },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "6.2518",
+                "longitude": "-75.5636"
+              },
               "areaServed": {
                 "@type": "City",
-                "name": "Medellín",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressCountry": "CO"
-                }
+                "name": "Medellín"
               },
               "priceRange": "$$",
-              "sameAs": [],
-              "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                "opens": "08:00",
-                "closes": "17:00"
-              }
+              "medicalSpecialty": "Medicina Interna",
+              "knowsAbout": [
+                "Hipertensión",
+                "Diabetes",
+                "Enfermedades Cardiovasculares",
+                "Enfermedades Gastrointestinales",
+                "Enfermedades Endocrinas",
+                "Enfermedades Pulmonares",
+                "Dolor Crónico",
+                "Enfermedades Hematológicas"
+              ],
+              "sameAs": [
+                "https://drwillmerobregon.com"
+              ],
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "08:00",
+                  "closes": "17:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Saturday"],
+                  "opens": "09:00",
+                  "closes": "13:00"
+                }
+              ]
             })}
           </Script>
         </head>
